@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/*녹화 페이지 틀 깨져서 내비 큰틀 가져온거*/
+#center { /*안에 클 틀*/
+	height: 88vh;
+	width: 94vw;
+	/* background-color: rgba(65, 65, 72, 0.807); */
+	/* background-color: rgba(253, 253, 255, 0.275); */
+	background-color: #F8F6F4;
+	/* background-color: #f5f5f5; */
+	margin: auto;
+	box-shadow: 0 0 10px rgba(57, 57, 57, 0.402);
+	border-radius: 35px;
+	/* border-radius:30px; */
+	/* border: 5px solid rgb(39, 41, 60); */
+	margin-top: -11px;
+}
+
+#main_area {
+	display: flex;
+	justify-content: center;
+}
+
+.record_button { /*녹화에 대한 버튼*/
+	margin-top: 35px;
+	margin-left: 430px;
+	position: absolute;
+}
+
+.record_button img { /*녹화 버튼 이미지*/
+	width: 100px;
+	height: 100px;
+	border: 0;
+}
+
+.content_area { /*이상현상 감지를 나타내는 화면*/
+	height: 42vh;
+	width: 34vw;
+	margin: 1px auto;
+	/* border-radius: 2%; */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/*font: bold 25px "SUIT-Regular";*/
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 162px;
+}
+
+.content_area p { /*이상현상 감지 글자*/
+	background-color: rgba(243, 243, 229, 0.353);
+	margin-left: 20px;
+	letter-spacing: 4px;
+}
+
+/*문자발송완료 알림문구창*/
+.notification-container {
+	width: 1000px;
+	height: 80px;
+	/*height: 130px;*/
+	background-color: #f9f9f9;
+	border-radius: 0 0 10px 10px;
+	padding: 15px 20px;
+	margin-left: 23%;
+	position: absolute;
+	top: -100px;
+	transition: transform 0.3s ease-in-out;
+	font: bold 25px "malgun gothic";
+	letter-spacing: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 15px rgba(57, 57, 57, 0.402);
+	/*background: rgba(255, 255, 255, 0.3);*/
+	/* border-radius: 10px 10px 0 0 ; */
+	/* bottom: -50px; */
+	
+}
+
+#notification-container.show {
+  transform: translateY(-100px);
+}
+/* 졸음쉼터 알림문구창 */
+#nearestRestArea {
+	opacity: 1;
+	background-color: #adb1b9ec;
+	font-weight: bold;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/*운행시작 전 알림문구창*/
+.start_before {
+	/*display: none;*/
+	width: 1000px;
+	height: 55px;
+	background-color: #f9f9f9;
+	/* border-radius: 10px 10px 0 0 ; */
+	border-radius: 0 0 10px 10px;
+	padding: 15px 20px;
+	position: absolute;
+	/* bottom: -50px; */
+	top: -100px;
+	transition: transform 0.3s ease-in-out;
+	margin-left: 23%;
+	letter-spacing: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 15px rgba(57, 57, 57, 0.402);
+	font: bold 25px "malgun gothic";
+}
+#startMessage.show {
+  transform: translateY(-100px);
+}
+
+
+/*운행종료 후 알림문구창*/
+.end_before {
+	/*display: none;*/
+	width: 1000px;
+	height: 55px;
+	background-color: #f9f9f9;
+	/* border-radius: 10px 10px 0 0 ; */
+	border-radius: 0 0 10px 10px;
+	padding: 20px 10px;
+	position: absolute;
+	/* bottom: -50px; */
+	top: -100px;
+	transition: transform 0.3s ease-in-out;
+	margin-left: 23%;
+	letter-spacing: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 15px rgba(57, 57, 57, 0.402);
+	font: bold 25px "malgun gothic";
+}
+#endMessage.show {
+  transform: translateY(-100px);
+}
+
+
+/*녹화 크기 조절*/
+#video{
+       min-width: 100%;
+       width: auto; height: auto; z-index: -100;
+       background-size: cover;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.main_area{
+            height: 68vh;
+            display: flex;
+            justify-content: space-around;
+            margin-right: 90px;
+            padding-left: 100px;
+            margin-top: -25px;
+        }
+        .main_area a img{
+            width: 280px;
+            height: 280px;
+            filter: drop-shadow(10px 7px 5px #c3c3c3);
+            margin-top: 182px;
+        }
+        .main_area .button{
+            position: absolute;
+            opacity: 0;
+            /*font: bold 40px "SUIT-Regular";*/
+            font-size: 40px;
+            font-weight:bold;
+            color: #212A3E;
+        }
+        .record_btn:hover .button{
+            opacity: 1;
+            margin-left: 90px;
+            letter-spacing:5px;
+        }
+        .drive_record_btn:hover .button{
+            opacity: 1;
+            margin-left: 160px;
+            letter-spacing:5px;
+        }
+        .setting_btn:hover .button{
+            opacity: 1;
+            margin-left: 100px;
+            letter-spacing:5px;
+        }

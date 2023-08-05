@@ -1,0 +1,406 @@
+@charset "UTF-8";
+
+/* Updated styles for the chart tooltip */
+#chartjs-tooltip th {
+	font-weight: bold;
+	background-color: #f9f9f9;
+	padding: 8px;
+	color: #333; /* Text color for the tooltip header */
+}
+
+#chartjs-tooltip td {
+	padding: 6px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	color: #333; /* Text color for the tooltip content */
+}
+/* Tooltip Styling */
+#chartjs-tooltip {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+	padding: 8px;
+	max-width: 300px;
+}
+
+#chartjs-tooltip table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#chartjs-tooltip th {
+	font-weight: bold;
+	background-color: #f9f9f9;
+	padding: 8px;
+}
+
+#chartjs-tooltip td {
+	padding: 6px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+#chartjs-tooltip td:first-child {
+	text-align: left;
+}
+/* 외관 틀 */
+/* 그래프 툴팁 시 열리는 테이블 틀 잡는 코드 */
+table, th, tr, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}
+
+td {
+	text-align: center;
+}
+
+.forgot a {
+	white-space: pre;
+}
+
+/* -----------------------------------------------------------------------------------------*/
+@import
+	url(https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700)
+	;
+
+body {
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	line-height: 24px;
+	color: #333;
+	background-color: #212A3E;
+	overflow-y: scroll;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #00AE68;
+}
+
+.clear {
+	clear: both;
+}
+
+.articleTitle {
+	font-size: 1.15em;
+	font-weight: 700;
+	line-height: 1em;
+	color: #222;
+	text-align: center;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 20px auto;
+}
+
+.container {
+	text-align: center;
+	padding-top: 1em;
+	margin-top: 1em;
+	border-top: solid 1px #CCC;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 5px;
+}
+
+a.button {
+	display: block;
+	position: relative;
+	float: left;
+	width: 120px;
+	padding: 0;
+	margin: 10px 20px 10px 0;
+	font-weight: 600;
+	text-align: center;
+	line-height: 50px;
+	color: #FFF;
+	border-radius: 5px;
+	transition: all 0.2s;
+}
+
+.btnBlueGreen {
+	background: #00AE68;
+}
+
+.btnLightBlue {
+	background: #5DC8CD;
+}
+
+.btnOrange {
+	background: #FFAA40;
+}
+
+.btnPurple {
+	background: #A74982;
+}
+
+.btnBrown {
+	background: #74542d;
+}
+
+.btnBlueGreen.btnPush {
+	box-shadow: 0px 5px 0px 0px #007144;
+}
+
+.btnLightBlue.btnPush {
+	box-shadow: 0px 5px 0px 0px #1E8185;
+}
+
+.btnOrange.btnPush {
+	box-shadow: 0px 5px 0px 0px #A66615;
+}
+
+.btnPurple.btnPush {
+	box-shadow: 0px 5px 0px 0px #6D184B;
+}
+
+.btnBrown.btnPush {
+	box-shadow: 0px 5px 0px 0px #382816;
+}
+
+.btnPush:hover {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.btnBlueGreen.btnPush:hover {
+	box-shadow: 0px 0px 0px 0px #007144;
+}
+
+.btnLightBlue.btnPush:hover {
+	box-shadow: 0px 0px 0px 0px #1E8185;
+}
+
+.btnOrange.btnPush:hover {
+	box-shadow: 0px 0px 0px 0px #A66615;
+}
+
+.btnPurple.btnPush:hover {
+	box-shadow: 0px 0px 0px 0px #6D184B;
+}
+
+.btnBrown.btnPush:hover {
+	box-shadow: 0px 0px 0px 0px #382816;
+}
+
+.homeicon {
+	margin: 28px 0;
+	width: 17%;
+	height: 17%;
+	margin-right: 70%;
+}
+
+.myicon {
+	width: 20%;
+	height: 20%;
+	margin: 18px 25px;
+	margin-left: 75%;
+}
+
+.dropbtn {
+	background-color: transparent;
+	border: 0;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	right: 0;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.joinForm {
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	max-width: 900px;
+	max-height: 370px;
+	padding: 30px;
+	background-color: #f8f6f4;
+	text-align: center;
+	top: calc(50% + 4cm);
+	/* 변경된 부분: 10cm에서 5cm로 변경 (숫자가 커질수록 joinForm 이 내려감) */
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+}
+
+#prev-button {
+	margin-right: 20px;
+	height: 50px;
+	display: inline-flex;
+	/* Display the buttons in a row */
+	align-items: center;
+	border: none;
+	/* Remove the border */
+	outline: none;
+	/* Remove the outline */
+	background: transparent;
+	/* Make the background transparent */
+	cursor: pointer;
+}
+
+#next-button {
+	margin-left: 20px;
+	height: 50px;
+	/* Match the height of the buttons */
+	display: inline-flex;
+	/* Display the buttons in a row */
+	align-items: center;
+	border: none;
+	/* Remove the border */
+	outline: none;
+	/* Remove the outline */
+	background: transparent;
+	/* Make the background transparent */
+	cursor: pointer;
+}
+
+#chartList {
+	margin-bottom: 20px;
+}
+
+#prev-button {
+	margin-right: 20px;
+	height: 50px;
+	display: inline-flex;
+	/* Display the buttons in a row */
+	align-items: center;
+	border: none;
+	/* Remove the border */
+	outline: none;
+	/* Remove the outline */
+	background: transparent;
+	/* Make the background transparent */
+	cursor: pointer;
+}
+
+#next-button {
+	margin-left: 20px;
+	height: 50px;
+	/* Match the height of the buttons */
+	display: inline-flex;
+	/* Display the buttons in a row */
+	align-items: center;
+	border: none;
+	/* Remove the border */
+	outline: none;
+	/* Remove the outline */
+	background: transparent;
+	/* Make the background transparent */
+	cursor: pointer;
+}
+
+#prev-button:hover, #next-button:hover {
+	background-color: #ececec;
+	/* Add a background color on hover */
+}
+
+.button a {
+	margin: 5px;
+	/* Add spacing between buttons */
+}
+
+/* Add these styles to change the chart colors */
+.chart-container {
+	position: relative;
+	height: 50vh;
+	width: 80vw;
+}
+
+/* Color palette for the bar chart */
+:root { 
+	--color1: rgba(75, 192, 192, 0.6); 
+	--color2: rgba(255, 159, 64, 0.6); 
+	--color3: rgba(153, 102, 255, 0.6); 
+	--color4: rgba(255, 205, 86, 0.6); 
+	--color5: rgba(201, 203, 207, 0.6);
+}
+
+.chart-container {
+	position: relative;
+	height: 90vh; /* Adjust the height of the chart container */
+	width: 100vw; /* Adjust the width of the chart container */
+}
+
+.chart-container {
+	position: relative;
+	height: 80vh;
+	/* Adjust the height as desired (e.g., 80vh, 90vh, etc.) */
+	width: 90vw;
+	/* Adjust the width as desired (e.g., 90vw, 100vw, etc.) */
+}
+/* Additional styles for table lists */
+.table-list {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+	max-width: 300px;
+}
+
+.table-list h2 {
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.table-list table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+.table-list th, .table-list td {
+	padding: 6px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+.table-list th {
+	font-weight: bold;
+	background-color: #f9f9f9;
+}
+
+.table-list td:first-child {
+	text-align: left;
+}

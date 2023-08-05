@@ -1,0 +1,361 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'omyu_pretty';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	font-family: 'omyu_pretty';
+}
+/* 노멀라이즈 시작 */
+body, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none; /* 해당 태그의 list-style을 none으로 하는 것으로 ●을 제거한다 */
+}
+
+a {
+	color: inherit; /* 부모 엘리먼트의 값을 물려받는다 */
+	text-decoration: none;
+	/* 해당 태그의 text-decoration 속성을 none 값으로 하는 것으로 밑줄을 제거한다 */
+}
+/* 노멀라이즈 끝 */
+
+/* 커스텀 시작 */
+.side-bar>ul ul {
+	display: none;
+}
+
+/* 사이트의 높이를 5000px로 만들어 스크롤 생성 */
+body {
+	height: 5000px;
+	/* background-color: #444;*/
+	overflow: hidden;
+	background-color: #212A3E;
+}
+
+/* 사이드바 시작 */
+
+/* 사이드바의 너비와 높이를 변수를 통해 통제 */
+:root { 
+	--side-bar-width: 270px; 
+	--side-bar-height: 80vh;
+}
+
+.side-bar {
+	position: fixed; /* 스크롤을 따라오도록 지정 */
+	/* background-color: rgb(200, 198, 198);*/
+	width: var(- -side-bar-width);
+	min-height: var(- -side-bar-height); /* 사이드바의 높이를 전체 화면 높이의 90%로 지정 */
+	margin-top: calc(( 100vh - var(- -side-bar-height))/2);
+	/* 사이드바 위와 아래의 마진을 동일하게 지정 */
+	position: fixed !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 270px !important;
+	height: 100vh !important;
+}
+
+/* 모든 메뉴의 a에 속성값 부여 */
+.side-bar ul>li>a {
+	display: block;
+	color: black;
+	font-size: 1.4rem;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	transition: .5s;
+}
+
+.center-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+a.classi {
+	white-space: pre;
+}
+
+.classi {
+	font-size: 5px;
+}
+
+.joinForm {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	max-width: 500px;
+	max-height: 610px;
+	padding: 30px;
+	background-color: #FFFFFF;
+	text-align: center;
+	top: calc(50% + 1.5cm); /* 변경된 부분: 10cm에서 5cm로 변경 */
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+}
+
+.joinForm2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	max-width: 500px;
+	max-height: 300px;
+	padding: 30px;
+	background-color: #FFFFFF;
+	text-align: center;
+	top: calc(50% + 1.5cm); /* 변경된 부분: 10cm에서 5cm로 변경 */
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	display: block;
+}
+
+.joinForm2.show {
+	display: block;
+}
+
+.joinForm3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	max-width: 500px;
+	max-height: 390px;
+	padding: 30px;
+	background-color: #FFFFFF;
+	text-align: center;
+	top: calc(50% + 1.5cm); /* 변경된 부분: 10cm에서 5cm로 변경 */
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	display: block;
+}
+
+.joinForm3.show {
+	display: block;
+}
+
+.setting-label {
+	cursor: pointer;
+}
+
+.submit-btn {
+	margin-bottom: 40px;
+	margin-top: 20px;
+	width: 80%;
+	height: 40px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+	background: linear-gradient(to right, #9C27B0, #E040FB);
+	background-position: left;
+	background-size: 200%;
+	color: white;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	transition: 0.4s;
+	display: inline;
+	border-radius: 5em;
+	width: 100%;
+}
+
+.submit-btn123123 {
+	margin-bottom: 40px;
+	margin-top: 20px;
+	width: 20%;
+	height: 40px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+	background: linear-gradient(to right, #9C27B0, #E040FB);
+	background-size: 100%;
+	color: white;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	transition: 0.4s;
+	display: inline;
+	border-radius: 5em;
+}
+
+.joinForm h2 {
+	text-align: center;
+	margin: 30px;
+	color: #8C55AA;
+}
+
+.textForm {
+	border-bottom: 2px solid #adadad;
+	margin-bottom: 20px;
+	padding: 10px 10px;
+}
+
+.id, .pw, .name, .email, .phone {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #636e72;
+	font-size: 16px;
+	height: 25px;
+	background: none;
+	font-weight: bold;
+}
+
+.username, .email2 {
+	width: 50%;
+	border: none;
+	outline: none;
+	color: #262728;
+	font-size: 15px;
+	height: 30px;
+	background: none;
+	font-weight: bold;
+}
+
+.pw2 {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #636e72;
+	font-size: 16px;
+	height: 25px;
+	background: none;
+	font-weight: bold;
+}
+
+.btn {
+	margin-bottom: 40px;
+	margin-top: 20px;
+	width: 80%;
+	height: 40px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+	background: linear-gradient(to right, #9C27B0, #E040FB);
+	background-position: left;
+	background-size: 200%;
+	color: white;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	transition: 0.4s;
+	display: inline;
+	border-radius: 5em;
+	width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.joinForm {
+		width: 90%;
+		padding: 20px;
+	}
+	.btn:hover {
+		background-position: right;
+	}
+}
+
+@media only screen and (max-width: 412px) {
+	#menu {
+		font-size: 14px; /* Decreased font size for menu */
+	}
+	#menu li {
+		margin-right: 1cm; /* Adjusted spacing for Home, My, and Settings */
+	}
+	.logo {
+		width: 60%; /* Decreased logo width */
+	}
+	.joinForm {
+		width: 90%;
+		height: 100%;
+		padding: 10px;
+		display: none;
+	}
+	.joinForm h2 {
+		font-size: 18px; /* Increased font size for form heading */
+	}
+	.textForm {
+		margin: 10px;
+		padding: 5px 5px;
+	}
+	.btn {
+		font-size: 14px; /* Decreased font size for button */
+		margin-bottom: 20px;
+	}
+}
+
+.classi a {
+	white-space: pre;
+}
+
+.settings {
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	display: flex; /* Use flexbox to align button to the left */
+	flex-direction: column;
+}
+
+.setting-item {
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.setting-label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.setting-input {
+	width: 60%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.submit-btn2 {
+	margin-top: 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	margin-top: -0.5rem;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	text-align: left;
+	width: auto;
+	align-self: flex-start;
+}
+
+.submit-btn2:hover {
+	background-color: #45a049;
+}
+
+.btn2 {
+	margin-bottom: 40px;
+	margin-top: 20px;
+	width: 40%;
+	height: 40px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+	background: linear-gradient(to right, #9C27B0, #E040FB);
+	background-position: left;
+	background-size: 200%;
+	color: white;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	transition: 0.4s;
+	display: inline;
+	border-radius: 5em;
+	float: right;
+}

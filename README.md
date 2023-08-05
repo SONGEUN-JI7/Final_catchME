@@ -1,14 +1,13 @@
-# Final_catchME
+# 📎 Catch YOU(팀명 : OH YES)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/4bdfc7ba-7183-48f4-9278-81be587043e6)
 
-
-# 📎 Catch Me(팀명 : OH YES)
-![image-removebg-preview (2)-fococlipping-standard](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/46587074-3ec2-4dec-aa94-eb34e58d290e)
 
 
 
 ## 👀 서비스 소개
-* 서비스명: Catch Me
-* 서비스설명: 
+* 서비스명: Catch you
+* 서비스설명: 주행 중 이상행동(졸음운전, 주시태만) 감지 시 운전자에게 위험 신호 알림 서비스
+*               안전을 위해 현재 위치를 기준으로 가장 가까운 졸음 쉼터 및 거리 알림 서비스
 <br>
 
 ## 📅 프로젝트 기간 | 2023.07.06 ~ 2023.08.08 ( 실제 개발 기간 )
@@ -49,71 +48,16 @@
 
 <br>
 
-# 1.프로젝트 배경 및 주제
-
-1) 프로젝트 배경  
-
-
-2) 목표 서비스 및 기능
-
-
-
-
-
-<br>
-
 ## ⭐ 주요 기능
-* 기능1
-* 기능2
-* 기능3
-* 기능4
-* 기능5
+*  운전자의 이상주행 판단 시 운전자가 설정한 인원에게 MMS 발송
+* 운전자의 이상주행 판단 시 운전자거 설정한 알람 재생 
+* 운전자에게 근처의 졸음쉼터 정보 제공 
+* 운전자의 이상운전을 그래프로 시각화하여 본인의 운전습관을 개선 목표
+  
 <br>
 
-## ⛏ 기술스택 (version 1) 
-<table>
-    <tr>
-        <th>구분</th>
-        <th>내용</th>
-    </tr>
-    <tr>
-        <td>Front-end</td>
-        <td>
-          <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-          <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-          <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=white"/>
-          <img src="https://img.shields.io/badge/JQ-0769AD?style=flat-square&logo=jquery&logoColor=white"/>
-        </td>
-    </tr>
-    <tr>
-        <td>Back-end</td>
-        <td>
-          <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/>
-          <img src="https://img.shields.io/badge/오라클-F80000?style=flat-square&logo=oracle&logoColor=white"/>
-        </td>
-    </tr>
-    <tr>
-        <td>IDE</td>
-        <td>
-          <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
-          <img src="https://img.shields.io/badge/Eclipse-007ACC?style=flat-square&logo=Eclipse IDE&logoColor=white"/>
-          <img src="https://img.shields.io/badge/아파치톰캣-F8DC75?style=flat-square&logo=apachetomcat&logoColor=white"/>
-        </td>
-    </tr>
-    <tr>
-        <td>협업도구</td>
-        <td>
-            <img src="https://img.shields.io/badge/깃허브-181717?style=flat-square&logo=github&logoColor=white"/>
-        </td>
-    </tr>
-</table>
 
-
-<br>
-
-   --------
-
-  ## ⛏ 기술스택 (version 2 )    
+  ## ⛏ 기술스택  
 <table>
     <tr>
         <th>구분</th>
@@ -147,6 +91,7 @@
         <td>
             <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse&logoColor=white"/>
            <img src="https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"/>
             <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
         </td>
     </tr>
@@ -159,8 +104,6 @@
     <tr>
         <td>데이터베이스</td>
         <td>
-            <!--<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=white"/>--!>
-            <img src="https://img.shields.io/badge/Oracle 11g-F80000?style=for-the-badge&logo=Oracle&logoColor=white"/>
           <img src="https://img.shields.io/badge/mySql-4479A1?style=for-the-badge&logo=mySql&logoColor=white"/>
         </td>
     </tr>
@@ -169,35 +112,50 @@
         <td>
             <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"/>
             <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>
-          <img src="https://img.shields.io/badge/kakaotalk-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=white"/>
           <img src="https://img.shields.io/badge/googledrive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"/>
         </td>
     </tr>
 </table>
-
++ 글꼴 : 구글폰트 - Open Sans / pinterest - 움직이는 아이콘 사진 사용 / unsplah - 이미지 사용
 
 <br>
   
 
-## ⚙ 시스템 아키텍처(구조) 예시 
-![서비스 아키텍처]
 <br>
 
 ## 📌 SW유스케이스
-![image]
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/eaa925e5-283d-453a-8c32-ff85c496aef0)
+
 <br>
 
 ## 📌 서비스 흐름도
-![image]
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/a3c6eb9e-7a00-420d-9c0a-2541d748667a)
+
 <br>
 
 ## 📌 ER다이어그램
-![image
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/591abfe9-1fa7-43f4-8c7e-86eb9b6fc1e0)
+
 <br>
 
 ## 🖥 화면 구성
 
-### 로그인/회원가입/회원괸리/회원수정/회원탈퇴
+![main1](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/95280085/dc79ef99-9a04-45f5-b575-02f88fcc200f)
+![main2](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/95280085/18ea6d0a-2774-43b5-ab76-ea1060445705)
+![main3](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/95280085/6986ff59-4c16-4061-9669-67b1c716fc33)
+![main4](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/95280085/410873ef-d922-4958-aa96-f3f7a5c2fb05)
+
+
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/81324b94-abac-4af8-9914-5ef3d7954289)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/dadb0477-1443-4528-9d67-c4ca037006f4)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/eb46bad4-e5be-44b2-a69f-e6dce01627e6)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/da6ee23e-4f97-4985-bcf2-dbb3bfadacaa)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/af3a684b-1f86-410f-b422-93a5d6da68eb)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/bebe02e8-2459-47a7-94d1-c88048a40820)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/CatchMe/assets/130841823/41a85183-160c-4fce-a908-4fe3ba71bf55)
+
+
+
 <br>
 
 ## 👨‍👩‍👦‍👦 팀원 역할
@@ -237,12 +195,17 @@
 </table>
 
 ## 🤾‍♂ 트러블슈팅
-개념: 문제 해결을 위해 문제의 원인을 논리적이고 체계적으로 찾는 일이며 제품이나 프로세스의 운영을 재개
-프로젝트 진행하는 동안 발생했던 이슈 중 가장 기억에 남았던 문제와 해결 프로세스 나열(2~5가지 정도)
   
 * 문제1<br>
- 문제점 설명 및 해결방안
+라이브러리 설치 및 최적화
+
+각 PC 의 사양, 설정이 상이하여 코딩에 필요한 라이브러리 설치, 최적화 제한 
+라이브러리 변경, 모델 변경
  
 * 문제2<br>
- 문제점 설명 및 해결방안
+모델의 정확도가 높지 않음.
+
+이상행동을 학습시키기는 과정에서
+이상행동을 범위를 일반 박스형식 (박스) 형식이 아닌
+백그라운드 리무버를 통해 세밀하게 설정
 
